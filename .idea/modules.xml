@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mall-api.iml" filepath="$PROJECT_DIR$/mall-api/mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-plugins/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/mall-plugins/mall-common/mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-plugins/mall-core/mall-core.iml" filepath="$PROJECT_DIR$/mall-plugins/mall-core/mall-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-mis/mall-mis.iml" filepath="$PROJECT_DIR$/mall-mis/mall-mis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-plugins/mall-plugins.iml" filepath="$PROJECT_DIR$/mall-plugins/mall-plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-plugins/mall-rpc/mall-rpc.iml" filepath="$PROJECT_DIR$/mall-plugins/mall-rpc/mall-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manhattan-mall.iml" filepath="$PROJECT_DIR$/manhattan-mall.iml" />
+    </modules>
+  </component>
+</project>
