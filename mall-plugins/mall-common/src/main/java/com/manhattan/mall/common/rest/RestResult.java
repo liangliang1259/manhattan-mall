@@ -3,8 +3,6 @@ package com.manhattan.mall.common.rest;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.annotation.JSONField;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.manhattan.mall.common.exception.ErrorCode;
-import com.manhattan.mall.common.exception.enums.GlobalErrorCode;
 import java.io.Serializable;
 import org.apache.commons.lang3.StringUtils;
 
@@ -58,7 +56,7 @@ public class RestResult<T extends Object> implements Serializable {
   }
 
   public String getMessage() {
-    return StringUtils.trimToEmpty(message);
+    return message;
   }
 
   public void setMessage(String message) {

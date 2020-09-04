@@ -1,0 +1,8 @@
+### Send POST request with json body
+POST http://localhost:8080/api/orders/
+Content-Type: application/json
+
+{
+  "userAccountId": 1,
+  "quantity": 2
+}

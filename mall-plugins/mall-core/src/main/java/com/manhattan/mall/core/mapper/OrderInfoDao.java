@@ -1,5 +1,6 @@
-package com.manhattan.mall.core.dao;
+package com.manhattan.mall.core.mapper;
 
+import com.manhattan.mall.core.domain.order.OrderInfoDO;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -9,5 +10,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface OrderInfoDao {
-
+  void insert(OrderInfoDO order);
 }
